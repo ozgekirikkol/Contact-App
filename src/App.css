@@ -1,0 +1,109 @@
+#contacts-app {
+  max-width: 450px;
+  min-height: 95vh;
+  width: 100%;
+  background-color: #61f0981e;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  color: #f1e4b8;
+}
+ 
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  border-color: #417c5e;
+
+}
+
+h1,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.app-title {
+  padding-bottom: 15px;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.list {
+  margin: 20px 0;
+  max-height: 28vh;
+  overflow: overlay;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+.list li {
+  background-color: #99b9a6;
+  padding: 8px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  transition: all 350ms linear;
+}
+
+.list li:hover {
+    background-color: #aabeb2;
+    transition: all 300ms linear;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.btn button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #3b533e;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 2.5vmin;
+    border-color: #ededee;
+    outline: none;
+    transition: all 350ms linear;
+
+}
+
+.btn button:hover {
+    transition: all 350ms linear;
+    background-color: #208d41;
+}
+
+.totalContacts {
+    padding-bottom: 12px;
+    font-size: 3vmin;
+}
+
+.formInput {
+    margin-bottom: 12px;
+}
+
+ #root{
+
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,86,1) 50%, rgba(0,212,255,1) 100%);
+
+ }
